@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "coverage": "complete prefix-free dyadic cover",
+  "leaf_count": 9367,
+  "max_depth": 18,
+  "counts": {
+    "small_pressure": 96,
+    "closure_angle": 8138,
+    "integral_energy": 1037,
+    "elementary_energy": 93,
+    "large_pressure": 3
+  },
+  "arithmetic_checks": 12000,
+  "min_margins_fixed_point": {
+    "closure_angle": 574430524,
+    "integral_energy": 158682515,
+    "elementary_energy": 60303364072
+  },
+  "min_margins_display": {
+    "closure_angle": 3.265259488216543e-05,
+    "integral_energy": 9.02005666603145e-06,
+    "elementary_energy": 0.003427849382660497
+  },
+  "exact_scale": 17592186044416,
+  "seconds": 231.5888476371765,
+  "sha256": {
+    "certify_outside_one_cycle.py": "0c2471abb0a32771a23c0326f87c33ab664ce92b59f8c255a87d62ef525b2d61",
+    "refine_outside_certificate.py": "8ae912e7d70d2baddcabfbbe1bd3eabb8f97982501b88bdb941850daeca9fea8",
+    "outside_one_cycle_certificate_refined.json": "27abd04e2993acec3b49545bf6bc7cf54d0ff8c2f928da08f2d599ab37067c66"
+  }
+}
